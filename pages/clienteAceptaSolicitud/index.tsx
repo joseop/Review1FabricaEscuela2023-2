@@ -3,8 +3,7 @@ import React from 'react';
 export const ClienteAceptaSolicitud = () => {
   const handleSubmit = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
-  };
-  
+  };  
   return (
     <div className='bg-[#007bf1] flex flex-col items-center h-screen w-screen'>
       <div className='flex w-full justify-between'>
